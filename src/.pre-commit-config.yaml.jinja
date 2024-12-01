@@ -215,6 +215,8 @@ repos:
         name: eslint
         entry: eslint
         args:
+          - --rule
+          - 'no-unused-vars: warn'
           - --color
           - --parser-options
           - 'sourceType: module'
