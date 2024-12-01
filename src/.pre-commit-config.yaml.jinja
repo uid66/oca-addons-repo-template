@@ -216,6 +216,8 @@ repos:
         entry: eslint
         args:
           - --color
+          - --parser-options
+          - 'sourceType: module'
           - --fix
           - --config
           - ./.eslintrc.yml
