@@ -214,6 +214,8 @@ repos:
         entry: eslint
         args:
           - --color
+          - --parser-options
+          - 'sourceType: module'
           - --fix
         verbose: true
         types: [javascript]
